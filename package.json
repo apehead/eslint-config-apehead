@@ -1,0 +1,35 @@
+{
+    "name": "eslint-config-apehead",
+    "version": "1.0.0",
+    "description": "apehead's ESLint config",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "apehead",
+        "javascript",
+        "styleguide"
+    ],
+    "author": "Alexander Curiel (https://twitter.com/ap3head)",
+    "contributors": [{
+        "name": "Alexander Curiel",
+        "url": "https://twitter.com/ap3head"
+    }],
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+        "eslint": "^1.10.3"
+    },
+    "peerDependencies": {
+        "eslint": ">=1.0.0"
+    }
+}
