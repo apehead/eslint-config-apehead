@@ -3,10 +3,14 @@
     "version": "0.0.1",
     "description": "apehead's ESLint config",
     "main": "index.js",
-    "scripts": {},
+    "scripts": {
+        "release:major": "npm version major && npm publish && git push --follow-tags",
+        "release:minor": "npm version minor && npm publish && git push --follow-tags",
+        "release:patch": "npm version patch && npm publish && git push --follow-tags"
+    },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/apehead/eslint-config-apehead"
     },
     "keywords": [
         "eslint",
@@ -23,9 +27,9 @@
     }],
     "license": "MIT",
     "bugs": {
-        "url": ""
+        "url": "https://github.com/apehead/eslint-config-apehead/issues"
     },
-    "homepage": "",
+    "homepage": "https://github.com/apehead/eslint-config-apehead",
     "devDependencies": {
         "eslint": "^1.10.3"
     },
