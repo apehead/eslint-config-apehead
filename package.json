@@ -1,39 +1,41 @@
 {
-    "name": "eslint-config-apehead",
-    "version": "0.0.1",
-    "description": "apehead's ESLint config",
-    "main": "index.js",
-    "scripts": {
-        "release:major": "npm version major && npm publish && git push --follow-tags",
-        "release:minor": "npm version minor && npm publish && git push --follow-tags",
-        "release:patch": "npm version patch && npm publish && git push --follow-tags"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/apehead/eslint-config-apehead"
-    },
-    "keywords": [
-        "eslint",
-        "eslintconfig",
-        "config",
-        "apehead",
-        "javascript",
-        "styleguide"
-    ],
-    "author": "Alexander Curiel (https://twitter.com/ap3head)",
-    "contributors": [{
-        "name": "Alexander Curiel",
-        "url": "https://twitter.com/ap3head"
-    }],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/apehead/eslint-config-apehead/issues"
-    },
-    "homepage": "https://github.com/apehead/eslint-config-apehead",
-    "devDependencies": {
-        "eslint": "^1.10.3"
-    },
-    "peerDependencies": {
-        "eslint": ">=1.0.0"
+  "name": "eslint-config-apehead",
+  "version": "0.0.2",
+  "description": "apehead's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apehead/eslint-config-apehead"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "apehead",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Alexander Curiel (https://twitter.com/ap3head)",
+  "contributors": [
+    {
+      "name": "Alexander Curiel",
+      "url": "https://twitter.com/ap3head"
     }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apehead/eslint-config-apehead/issues"
+  },
+  "homepage": "https://github.com/apehead/eslint-config-apehead",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
 }
