@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-apehead",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "apehead's ESLint config",
   "main": "index.js",
   "scripts": {
